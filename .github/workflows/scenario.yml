@@ -1,0 +1,246 @@
+name: scenario
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+    jaywalk_psst:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: jaywalk_psst
+          run: |
+            npm install
+            timeout 328m node scenario.js
+  
+    um:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: um
+          run: |
+            npm install
+            timeout 341m node scenario.js
+  
+    meh_mountain_without:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: meh_mountain_without
+          run: |
+            npm install
+            timeout 302m node scenario.js
+  
+    between_huzzah:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: between_huzzah
+          run: |
+            npm install
+            timeout 327m node scenario.js
+  
+    that_boo:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: that_boo
+          run: |
+            npm install
+            timeout 317m node scenario.js
+  
+    ouch_printer_secrecy:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: ouch_printer_secrecy
+          run: |
+            npm install
+            timeout 335m node scenario.js
+  
+    consequently_mmm:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: consequently_mmm
+          run: |
+            npm install
+            timeout 325m node scenario.js
+  
+    windy_unsung_state:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: windy_unsung_state
+          run: |
+            npm install
+            timeout 343m node scenario.js
+  
+    yippee_despite:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: yippee_despite
+          run: |
+            npm install
+            timeout 327m node scenario.js
+  
+    furthermore_rapidly:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: furthermore_rapidly
+          run: |
+            npm install
+            timeout 311m node scenario.js
+  
+    except:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: except
+          run: |
+            npm install
+            timeout 320m node scenario.js
+  
+    a_plus:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: a_plus
+          run: |
+            npm install
+            timeout 325m node scenario.js
+  
+    greedily:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: greedily
+          run: |
+            npm install
+            timeout 332m node scenario.js
+  
+    er_shoot:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: er_shoot
+          run: |
+            npm install
+            timeout 300m node scenario.js
+  
+    towards_apropos_unique:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: towards_apropos_unique
+          run: |
+            npm install
+            timeout 347m node scenario.js
+  
